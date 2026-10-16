@@ -1,0 +1,194 @@
+{
+  "currency": "so'm",
+  "categories": [
+    {
+      "id": "rank",
+      "title": "🏆 Ranklar",
+      "items": [
+        {
+          "id": "rank_askar",
+          "title": "Askar",
+          "price": 10000,
+          "desc": "Askar rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set askar"
+          ]
+        },
+        {
+          "id": "rank_qahramon",
+          "title": "Qahramon",
+          "price": 20000,
+          "desc": "Qahramon rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set qahramon"
+          ]
+        },
+        {
+          "id": "rank_ritsar",
+          "title": "Ritsar",
+          "price": 35000,
+          "desc": "Ritsar rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set ritsar"
+          ]
+        },
+        {
+          "id": "rank_alpomish",
+          "title": "Alpomish",
+          "price": 50000,
+          "desc": "Alpomish rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set alpomish"
+          ]
+        },
+        {
+          "id": "rank_titan",
+          "title": "Titan",
+          "price": 75000,
+          "desc": "Titan rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set titan"
+          ]
+        },
+        {
+          "id": "rank_elita",
+          "title": "Elita",
+          "price": 100000,
+          "desc": "Elita rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set elita"
+          ]
+        },
+        {
+          "id": "rank_afsona",
+          "title": "Afsona",
+          "price": 150000,
+          "desc": "Afsona rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set afsona"
+          ]
+        },
+        {
+          "id": "rank_general",
+          "title": "General",
+          "price": 200000,
+          "desc": "General rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set general"
+          ]
+        },
+        {
+          "id": "rank_imperator",
+          "title": "Imperator",
+          "price": 300000,
+          "desc": "Imperator rank (serverda avtomatik beriladi)",
+          "commands": [
+            "lp user {nick} parent set imperator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "case",
+      "title": "🎁 Case keylar",
+      "items": [
+        {
+          "id": "key_token_1",
+          "title": "Token Case key x1",
+          "price": 5000,
+          "desc": "Token case uchun 1 ta kalit",
+          "commands": [
+            "articases givekey {nick} token 1"
+          ]
+        },
+        {
+          "id": "key_token_5",
+          "title": "Token Case key x5",
+          "price": 22000,
+          "desc": "Token case uchun 5 ta kalit",
+          "commands": [
+            "articases givekey {nick} token 5"
+          ]
+        },
+        {
+          "id": "key_token_10",
+          "title": "Token Case key x10",
+          "price": 40000,
+          "desc": "Token case uchun 10 ta kalit",
+          "commands": [
+            "articases givekey {nick} token 10"
+          ]
+        },
+        {
+          "id": "key_resource_1",
+          "title": "Resurs Case key x1",
+          "price": 5000,
+          "desc": "Resurs case uchun 1 ta kalit",
+          "commands": [
+            "articases givekey {nick} resource 1"
+          ]
+        },
+        {
+          "id": "key_resource_5",
+          "title": "Resurs Case key x5",
+          "price": 22000,
+          "desc": "Resurs case uchun 5 ta kalit",
+          "commands": [
+            "articases givekey {nick} resource 5"
+          ]
+        },
+        {
+          "id": "key_resource_10",
+          "title": "Resurs Case key x10",
+          "price": 40000,
+          "desc": "Resurs case uchun 10 ta kalit",
+          "commands": [
+            "articases givekey {nick} resource 10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "title": "🪙 Tokenlar",
+      "items": [
+        {
+          "id": "token_1000",
+          "title": "1 000 token",
+          "price": 5000,
+          "desc": "1 000 token",
+          "commands": [
+            "points give {nick} 1000"
+          ]
+        },
+        {
+          "id": "token_5000",
+          "title": "5 000 token",
+          "price": 22000,
+          "desc": "5 000 token",
+          "commands": [
+            "points give {nick} 5000"
+          ]
+        },
+        {
+          "id": "token_10000",
+          "title": "10 000 token",
+          "price": 40000,
+          "desc": "10 000 token",
+          "commands": [
+            "points give {nick} 10000"
+          ]
+        },
+        {
+          "id": "token_50000",
+          "title": "50 000 token",
+          "price": 180000,
+          "desc": "50 000 token",
+          "commands": [
+            "points give {nick} 50000"
+          ]
+        }
+      ]
+    }
+  ]
+}
